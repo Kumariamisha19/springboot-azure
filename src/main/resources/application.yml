@@ -1,0 +1,12 @@
+server:
+  port: 9191
+spring:
+  datasource:
+    url: jdbc:sqlserver://db-server0.database.windows.net:1433;database=AzureDB;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: amisha
+    password: 8986522706@rohit
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.MySQL5Dialect
